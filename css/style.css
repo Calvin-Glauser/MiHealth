@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family: "Roboto", sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+header{
+    background-color: #ffffff;
+    color: #1c1b1c;
+    padding: 20px;
+    text-align: center;
+    height: 75px;
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    left: 5%;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#mi{
+color: #ce2020;
+}
+
+#health{
+color: #8dc728;
+}
+
+header nav{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header nav ul li{
+    margin: 0 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #1c1b1c;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
