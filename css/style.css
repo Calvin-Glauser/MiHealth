@@ -60,6 +60,36 @@ header nav ul li a{
     transition: color 0.3s ease;
 }
 
+.text-container{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.text-container h2{
+    font-size: 50px;
+    font-weight: 1200;
+    margin-bottom: 20px;
+}
+
+.text-container p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.text-container a{
+    color: #1c1b1c;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
 .hero-container{
     display: flex;
     justify-content: right;
